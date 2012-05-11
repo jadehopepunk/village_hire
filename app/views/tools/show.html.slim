@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Code:
+  = @tool.code
+p
+  strong Name:
+  = @tool.name
+p
+  strong Description:
+  = @tool.description
+
+= link_to 'Edit', edit_tool_path(@tool)
+'|
+= link_to 'Back', tools_path
