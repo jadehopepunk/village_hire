@@ -17,5 +17,6 @@
 //= require backbone
 //= require backbone_rails_sync
 //= require backbone_datalink
+//= require hamlcoffee
 //= require backbone/village_hire
 //= require_tree .

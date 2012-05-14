@@ -1,0 +1,10 @@
+%td= @code
+%td= @name
+%td= @description
+
+%td
+  %a{:href => "#/#{@id}"} Show
+%td
+  %a{:href => "#/#{@id}/edit"} Edit
+%td
+  %a{:href => "#/#{@id}/destroy"} Destroy

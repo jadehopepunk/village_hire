@@ -1,0 +1,13 @@
+%p
+  %strong Code:
+  = @code
+
+%p
+  %strong Name:
+  = @name
+
+%p
+  %strong Description:
+  = @description
+
+%a{:href => "#/index"} Back

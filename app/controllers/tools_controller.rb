@@ -1,13 +1,8 @@
 class ToolsController < ApplicationController
-  # GET /tools
-  # GET /tools.json
-  def index
-    @tools = Tool.all
+  respond_to :html, :json
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @tools }
-    end
+  def index
+    respond_with(@tools = Tool.all)
   end
 
   # GET /tools/1

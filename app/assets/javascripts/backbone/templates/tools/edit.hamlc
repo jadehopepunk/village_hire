@@ -1,0 +1,19 @@
+%h1 Edit tool
+
+%form#edit-tool{:name => "tool"}
+  .field
+    %label{:for => "code"} code:
+    %input#code{:type => "text", :name => "code", :value => @code}
+
+  .field
+    %label{:for => "name"} name:
+    %input#name{:type => "text", :name => "name", :value => @name}
+
+  .field
+    %label{:for => "description"} description:
+    %input#description{:type => "text", :name => "description", :value => @description}
+
+  .actions
+    %input{:type => 'submit', :value => 'Update Tool'}
+
+%a{:href => "#/index"} Back

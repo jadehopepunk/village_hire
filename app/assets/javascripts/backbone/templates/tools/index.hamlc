@@ -1,0 +1,14 @@
+%h1 Listing tools
+
+%table#tools-table
+  %tr
+    %th Code
+    %th Name
+    %th Description
+    %th
+    %th
+    %th
+
+%br
+
+%a{:href => "#/new"} New Tool
